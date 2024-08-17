@@ -14,9 +14,9 @@ const Contacto = () => {
         <div style={{ padding: '20px', textAlign: 'center' }}>
             <h2>Contacto</h2>
             <p>Para más información, contáctanos a través de:</p>
-            <p>Teléfono: 123-456-7890</p>
-            <p>Email: contacto@sattva.com</p>
-            <p>Dirección: Calle de Yoga, 123, Ciudad</p>
+            <p>Teléfono: 280-4(15)352273</p>
+            <p>Email: sattva.yoga.rw</p>
+            <p>Dirección: Playa Unión, Chubut.</p>
             <Button variant="contained" color="primary" onClick={handleBackClick}>
                 Regresar
             </Button>
