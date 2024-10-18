@@ -49,6 +49,16 @@ const Header = () => {
                 >
                     Contactos
                 </Button>
+                <Button
+                    sx={{
+                        textDecoration: 'underline',
+                        color: '#4B0082',  // Color violeta oscuro
+                        marginLeft: 'auto'  // Empuja el botón a la derecha
+                    }}
+                    onClick={() => navigate('/login')}
+                >
+                    Login
+                </Button>
             </Toolbar>
         </div>
     );

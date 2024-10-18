@@ -34,6 +34,8 @@ import HomePage from './components/Home';
 import Clases from './components/Clases';
 import ClasesVirtuales from './components/ClasesVirtuales';
 import Contacto from './components/Contacto';
+import LoginForm from './components/LoginForm';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -45,6 +47,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/clases-online" element={<ClasesVirtuales />} />
         <Route path="/contactos" element={<Contacto />} />
         <Route path="/clases" element={<Clases />} />
+        <Route path="/login" element={<LoginForm />} />
       </Routes>
     </React.StrictMode>
   </Router>
